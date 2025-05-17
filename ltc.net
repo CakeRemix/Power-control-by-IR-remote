@@ -1,0 +1,19 @@
+* C:\Users\user\Desktop\GIU\ENG4\Electronics\Power-control-by-IR-remote\ltc.asc
+XU1 0 POT OUT VCC N004 POT DIS VCC NE555
+V1 VCC 0 9
+R1 VCC DIS 120
+R2 N003 POT 1
+R3 POT N002 5k
+D1 DIS N003 D
+D2 N002 DIS D
+C1 POT 0 1µ
+C2 0 N004 100n
+XU2 VCC OUT N001 BTA12-600B BTA12-600B
+R4 N001 0 440
+.model D D
+.lib C:\Users\user\Documents\LTspiceXVII\lib\cmp\standard.dio
+.lib C:\Users\user\Downloads\Libraries\st_standard_snubberless_triacs.lib
+.tran 20m
+.lib NE555.sub
+.backanno
+.end
