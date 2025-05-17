@@ -1,0 +1,17 @@
+.SUBCKT SCR	   1  2             3
+*       TERMINALS: A  G             K
+Qpnp    6          4  1             Pfor      OFF
+Qnpn    4          6  5             Nfor      OFF
+Rfor    6          4  5G
+Rrev    1          4  5G
+Rshort  6          5  1MEG
+Rlat    2          6  9.09
+Ron     3          5  513.4m
+Dfor    6          4  Zbrk
+Drev    1          4  Zbrk
+Dgate   6          5  Zgate
+.MODEL  Zbrk       D  (IS=3.2E-16   IBV=100U  BV=400)
+.MODEL  Zgate      D  (IS=1E-16     IBV=100U  BV=10      VJ=0.3)
+.MODEL  Pfor       PNP(IS=5E-15     BF=6.10   CJE=5p     CJC=2p     TF=0.3U)
+.MODEL  Nfor       NPN(IS=1E-12     ISE=1E-9  BF=10.0    RC=0.45    CJE=30p     CJC=2p      TF=0.3U)
+.ENDS
