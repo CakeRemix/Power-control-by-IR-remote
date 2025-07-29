@@ -2,28 +2,32 @@
 
 ## Overview
 
-This project simulates and analyzes the wireless control of a load as part of the Electronics II course at the German International University. The work includes deriving the concepts, implementing them in Proteus Software and Microchip Studio, testing system behavior under various conditions, and constructing the circuit on a breadboard.
+This project simulates and analyzes the wireless control of a load as part of the Electronics II course at the German International University. The work includes deriving the concepts, implementing them in Ltspice Software, testing system behavior under various conditions, and constructing the circuit on a breadboard.
 
 ## Contents
 
-- No content yet
+- Hardware pictures and schematics of the circuit
+- Ltspice simulation of the system
+- Graphs and performance analysis
+- [Project report](https://drive.google.com/file/d/19k3RAX1upicZQ6JkpAsMRenQnKo7MZmX/view?usp=sharing)
 
 ## How to Run
 
-1. Open Proteus Software.
+1. Open Ltspice Software.
 2. Load the source files.
-3. Run the simulation script to view the system in motion.
-4. Code can be examined with any IDE.
+3. Load the libraries needed
+4. Run the simulation to view the system in motion.
+5. Report can be opened with any PDF viewer.
 
 ## Requirements
 
-- Proteus Software (any recent version)
-- Intermediate understanding of electronics circuits, Embedded C, Signal Processing, and microcontrollers 
+- Ltspice (any recent version)
+- Intermediate understanding of electronics circuits and Signal Processing
 
 ## Contributors
 
-- Instructor: Dr. Lobna Tarek  
-- TA: Shehab Hesham & Maryam AboHashem
+- Instructor: Dr. Muhammad Othman
+- TA: Eng. Janna Ramadan & Eng. Zeina Mohamed
 
 ## Notes
 
